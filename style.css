@@ -1,0 +1,43 @@
+p{
+        padding-left: 7px;
+
+}
+.para1{
+    background-color: rgba(155, 224, 224,0.8);
+}
+#id{
+    color: green
+}
+body{
+    height: 100vh;
+}
+.all-card{
+    width: 500px;
+    height: 500px;
+   border: 2px solid #0000007e;
+}
+h3{
+    padding-left: 7px;
+}
+
+.img-responsive{
+        width: 100%;
+        height: auto;
+    }
+
+.retour{
+padding-left: 9px
+}
+.link{
+     padding-left: 7px;
+}
+
+/* .child{
+    width: 50%;
+    height: 10px;
+    margin:auto;
+    background: olivedrab;
+    box-sizing: border-box;
+
+    
+    
