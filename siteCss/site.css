@@ -162,5 +162,8 @@ list-style-type: none;
     font-size: 14px;
     
 }
-
+.logo-menu{
+  top: 15px;
+  width: 40px;
+}   
 }
