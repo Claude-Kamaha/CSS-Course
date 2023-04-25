@@ -154,16 +154,33 @@ list-style-type: none;
         font-size: 23px;
      }
      .btn-accueil{
-    margin: 15px auto 0;
-    text-align: center;
-    width: 150px;
-    height: 30px;
-    line-height: 30px;
-    font-size: 14px;
+        margin: 15px auto 0;
+        text-align: center;
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
     
 }
+
 .logo-menu{
-  top: 15px;
-  width: 40px;
+    top: 15px;
+    width: 40px;
 }   
+
+}
+
+/*section asymetrique*/
+
+.section-asymetrique{
+    display: grid;
+    grid-template: 200px repeat(3,auto)/1fr 600px 1fr;
+    background-color: red ;
+}
+.section-asymetrique h2 {
+    grid-area: 1 / 1 / 2 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
