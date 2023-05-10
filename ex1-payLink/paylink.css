@@ -141,7 +141,6 @@ nav {
   height: 72px;
 }
 .frame3 .group87 .rectangle31 {
-  position: absolute;
   width: 565.76px;
   height: 72px;
   left: 0px;
@@ -176,18 +175,15 @@ nav {
   background: #505AE9;
   border-radius: 16px;
 }
-.frame3 .group87 .group81 p {
-  position: absolute;
+.frame3 .group87 .group81 .rectangle2 p {
   width: 108px;
   height: 30px;
-  left: 407px;
-  top: 345px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
-  color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=paylink.css.map */

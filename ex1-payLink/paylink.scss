@@ -143,7 +143,7 @@ height: 90px;
 height: 72px;  
 
 .rectangle31{
-position: absolute;
+// position: absolute;
 width: 565.76px;
 height: 72px;
 left: 0px;
@@ -175,16 +175,18 @@ width: 190.72px;
 height: 58.5px;
 background: #505AE9;
 border-radius: 16px;
-}
 
 p{
-    position: absolute;
+//  position: absolute;
 width: 108px;
 height: 30px;
-left: 407px;
-top: 345px;
-@include text(#FFFF, 20px, 500, 150%)
+// left: 407px;
+// top: 345px;
+@include text(black, 20px, 500, 150%)
 }
+}
+
+
 }
 }
 }
