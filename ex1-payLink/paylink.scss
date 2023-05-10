@@ -1,0 +1,190 @@
+@import url('https://fonts.cdnfonts.com/css/rez');
+
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$primary-color: #505AE9;
+@mixin navItems($color: #6F73A0){
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: $color;
+}
+@mixin text ($color: #505AE9, $font-size: 12px, $font-weight:600,
+$line-height: 180%){
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: $font-weight;
+font-size: $font-size;
+line-height: $line-height;
+
+color: $color;
+}
+
+nav{
+position: absolute;
+width: 1512px;
+height: 100px;
+left: 0px;
+top: 0px;
+border: 2px solid black;
+}
+
+.menu{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 45px;
+position: absolute;
+width: 599px;
+height: 30px;
+left: 759px;
+top: 35px;
+
+.home{
+    @include navItems(#505AE9)
+}
+.how, .services,  .about{
+    @include navItems;
+}
+
+}
+.logo{
+position: absolute;
+width: 87px;
+height: 48px;
+left: 148px;
+top: 26px;
+font-family: 'REZ';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+display: flex;
+align-items: center;
+color: $primary-color;
+}
+
+/*Create a link card */
+
+.welcome-card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+position: absolute;
+width: 594px;
+height: 428px;
+left: 154px;
+top: 263px;
+}
+
+.frame91{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 18px;
+gap: 10px;
+width: 248px;
+height: 30px;
+background: #EEEFFD;
+border-radius: 18.9685px;
+text-align: center
+}
+
+.great{
+@include text;
+letter-spacing: 0.01em;
+width: 212px;
+height: 22px;
+}
+.frame3{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+width: 594px;
+height: 396px;
+
+.frame2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+width: 594px;
+height: 276px; 
+
+h1{
+    width: 594px;
+height: 158px;
+@include text(#101561, 72px, 800, 110%)
+}
+
+p{
+width: 560.64px;
+height: 90px;
+@include text(#6F73A0, 20px, 400, 150%)
+}
+}
+
+.group87{
+ width: 565.76px;
+height: 72px;  
+
+.rectangle31{
+position: absolute;
+width: 565.76px;
+height: 72px;
+left: 0px;
+top: 324px;
+
+background: #FCFCFC;
+box-shadow: 0px 5.12px 38.4px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+}
+
+p{
+  position: absolute;
+width: 232px;
+height: 24.75px;
+left: 18.52px;
+top: 348px;  
+ @include text(red, 20px, 500, 110%)
+}
+
+.group81{
+   position: absolute;
+width: 190.72px;
+height: 58.5px;
+left: 365.52px;
+top: 330.75px; 
+
+.rectangle2{
+width: 190.72px;
+height: 58.5px;
+background: #505AE9;
+border-radius: 16px;
+}
+
+p{
+    position: absolute;
+width: 108px;
+height: 30px;
+left: 407px;
+top: 345px;
+@include text(#FFFF, 20px, 500, 150%)
+}
+}
+}
+}

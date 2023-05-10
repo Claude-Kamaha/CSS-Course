@@ -1,0 +1,193 @@
+@import url("https://fonts.cdnfonts.com/css/rez");
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: absolute;
+  width: 1512px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  border: 2px solid black;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 45px;
+  position: absolute;
+  width: 599px;
+  height: 30px;
+  left: 759px;
+  top: 35px;
+}
+.menu .home {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #505AE9;
+}
+.menu .how, .menu .services, .menu .about {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6F73A0;
+}
+
+.logo {
+  position: absolute;
+  width: 87px;
+  height: 48px;
+  left: 148px;
+  top: 26px;
+  font-family: "REZ";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: #505AE9;
+}
+
+/*Create a link card */
+.welcome-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  position: absolute;
+  width: 594px;
+  height: 428px;
+  left: 154px;
+  top: 263px;
+}
+
+.frame91 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 18px;
+  gap: 10px;
+  width: 248px;
+  height: 30px;
+  background: #EEEFFD;
+  border-radius: 18.9685px;
+  text-align: center;
+}
+
+.great {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 180%;
+  color: #505AE9;
+  letter-spacing: 0.01em;
+  width: 212px;
+  height: 22px;
+}
+
+.frame3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  width: 594px;
+  height: 396px;
+}
+.frame3 .frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 594px;
+  height: 276px;
+}
+.frame3 .frame2 h1 {
+  width: 594px;
+  height: 158px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 110%;
+  color: #101561;
+}
+.frame3 .frame2 p {
+  width: 560.64px;
+  height: 90px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #6F73A0;
+}
+.frame3 .group87 {
+  width: 565.76px;
+  height: 72px;
+}
+.frame3 .group87 .rectangle31 {
+  position: absolute;
+  width: 565.76px;
+  height: 72px;
+  left: 0px;
+  top: 324px;
+  background: #FCFCFC;
+  box-shadow: 0px 5.12px 38.4px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.frame3 .group87 p {
+  position: absolute;
+  width: 232px;
+  height: 24.75px;
+  left: 18.52px;
+  top: 348px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  color: red;
+}
+.frame3 .group87 .group81 {
+  position: absolute;
+  width: 190.72px;
+  height: 58.5px;
+  left: 365.52px;
+  top: 330.75px;
+}
+.frame3 .group87 .group81 .rectangle2 {
+  width: 190.72px;
+  height: 58.5px;
+  background: #505AE9;
+  border-radius: 16px;
+}
+.frame3 .group87 .group81 p {
+  position: absolute;
+  width: 108px;
+  height: 30px;
+  left: 407px;
+  top: 345px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+}
+
+/*# sourceMappingURL=paylink.css.map */
