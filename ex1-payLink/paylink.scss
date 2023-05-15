@@ -28,6 +28,26 @@ line-height: $line-height;
 color: $color;
 }
 
+button{
+    cursor: pointer;
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 232px;
+}
+
+input::placeholder{
+
+
+height: 24.75px;
+align-self: center;
+justify-self: center;
+
+    @include text(#9FA1C0, 20px, 500, 110%)
+}
+
 nav{
 position: absolute;
 width: 1512px;
@@ -138,55 +158,39 @@ height: 90px;
 }
 }
 
-.group87{
- width: 565.76px;
-height: 72px;  
-
 .rectangle31{
-// position: absolute;
+ position: absolute;
 width: 565.76px;
 height: 72px;
 left: 0px;
-top: 324px;
-
+ top: 324px;
+display: flex;
+justify-content: space-between;
+align-content: center;
+flex-direction: row;
 background: #FCFCFC;
 box-shadow: 0px 5.12px 38.4px rgba(0, 0, 0, 0.05);
 border-radius: 20px;
 }
 
-p{
-  position: absolute;
-width: 232px;
-height: 24.75px;
-left: 18.52px;
-top: 348px;  
- @include text(red, 20px, 500, 110%)
+.rect-input{
+padding: 18.52px;
 }
 
-.group81{
-   position: absolute;
-width: 190.72px;
-height: 58.5px;
-left: 365.52px;
-top: 330.75px; 
+button{
+    margin: 6.75px 9.52px 0px;
+}
 
 .rectangle2{
 width: 190.72px;
 height: 58.5px;
 background: #505AE9;
+border: none;
 border-radius: 16px;
+align-self: center;
+justify-self: center;
 
-p{
-//  position: absolute;
-width: 108px;
-height: 30px;
-// left: 407px;
-// top: 345px;
-@include text(black, 20px, 500, 150%)
-}
-}
+@include text(#FFFFFF, 20px, 500, 150%);
 
-
-}
 }
 }

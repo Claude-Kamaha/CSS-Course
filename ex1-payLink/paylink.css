@@ -5,6 +5,28 @@
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 232px;
+}
+
+input::placeholder {
+  height: 24.75px;
+  align-self: center;
+  justify-self: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  color: #9FA1C0;
+}
+
 nav {
   position: absolute;
   width: 1512px;
@@ -136,54 +158,40 @@ nav {
   line-height: 150%;
   color: #6F73A0;
 }
-.frame3 .group87 {
-  width: 565.76px;
-  height: 72px;
-}
-.frame3 .group87 .rectangle31 {
+.frame3 .rectangle31 {
+  position: absolute;
   width: 565.76px;
   height: 72px;
   left: 0px;
   top: 324px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
   background: #FCFCFC;
   box-shadow: 0px 5.12px 38.4px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
 }
-.frame3 .group87 p {
-  position: absolute;
-  width: 232px;
-  height: 24.75px;
-  left: 18.52px;
-  top: 348px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 110%;
-  color: red;
+.frame3 .rect-input {
+  padding: 18.52px;
 }
-.frame3 .group87 .group81 {
-  position: absolute;
-  width: 190.72px;
-  height: 58.5px;
-  left: 365.52px;
-  top: 330.75px;
+.frame3 button {
+  margin: 6.75px 9.52px 0px;
 }
-.frame3 .group87 .group81 .rectangle2 {
+.frame3 .rectangle2 {
   width: 190.72px;
   height: 58.5px;
   background: #505AE9;
+  border: none;
   border-radius: 16px;
-}
-.frame3 .group87 .group81 .rectangle2 p {
-  width: 108px;
-  height: 30px;
+  align-self: center;
+  justify-self: center;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
-  color: black;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=paylink.css.map */
