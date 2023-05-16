@@ -17,6 +17,7 @@ font-size: 20px;
 line-height: 150%;
 color: $color;
 }
+
 @mixin text ($color: #505AE9, $font-size: 12px, $font-weight:600,
 $line-height: 180%){
     font-family: 'Mulish';
@@ -26,6 +27,16 @@ font-size: $font-size;
 line-height: $line-height;
 
 color: $color;
+}
+
+@mixin divPosition($position: absolute, $width: 1232px, $height: 600px, $left: 154px, $top:100px)
+{
+    position: $position;
+    width: $width;
+    height: $height;
+    left: $left;
+    top: $top;
+
 }
 
 button{
@@ -193,4 +204,125 @@ justify-self: center;
 @include text(#FFFFFF, 20px, 500, 150%);
 
 }
+}
+
+.group3067{
+    
+position: absolute;
+width: 757.5px;
+height: 593.98px;
+left: 894px;
+top: -147px;
+}
+
+.rectangle6{
+position: absolute;
+width: 100vw;
+height: 895px;
+left: 0px;
+top: 128px;
+
+background: #F7FAFD;
+}
+
+.frame5{
+position: absolute;
+width: 100vw;
+height: 860px;
+left: 0px;
+top: 950px;
+background: #101561;
+
+
+.frame9{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 64px;
+
+@include divPosition(absolute,1232px,610px ,154px ,109px );
+
+
+.frame7{
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 169px;
+
+width: 1085px;
+height: 138px;
+
+.frame6{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 500px;
+height: 138px;
+
+.frame1{
+    width: 76px;
+height: 22px;
+@include text(#FB8B24, 12px, 600, 180%)
+}
+p{
+width: 500px;
+height: 106px;
+ @include text(#FFFFFF,48px, 700, 110%);
+ font-feature-settings: 'pnum' on, 'lnum' on;
+
+}
+}
+
+.lorem-txt{
+    p{
+width: 416px;
+height: 72px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+opacity: 0.7;
+    }
+}
+}
+
+.frame8{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 1232px;
+height: 408px;
+
+.how-it-works1{
+
+}
+.how-it-works2{
+    
+}
+.how-it-works3{
+    
+}
+  
+}
+
+}
+
+}
+header{
+
+}
+mid-header{
+
+}
+smalltext{
+    
 }
