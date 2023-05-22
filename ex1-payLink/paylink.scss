@@ -313,9 +313,7 @@ background-color: #3F4481;
 }
   
 }
-
 }
-
 }
 .header{
  
@@ -353,3 +351,164 @@ color: #FFFFFF;
 
 opacity: 0.7;
 }
+
+.frame92{
+    @include divPosition(absolute,1512px ,972px ,0px ,1685px );
+    background:#FBFBFF;
+
+    .frame4{
+       display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+ @include divPosition(absolute,572px ,214px ,154px ,128px );
+    }
+
+    p.channel{
+        @include text(#505AE9, 12px, 600, 180%);
+   letter-spacing: 0.01em;
+
+    }
+
+    .lorem{
+        /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+
+width: 572px;
+height: 182px;
+
+p.ipsum{
+    width: 572px;
+height: 106px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 110%;
+/* or 53px */
+
+
+color: #101561;
+}
+
+p.lor{
+    
+width: 572px;
+height: 48px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #6F73A0;
+}
+    }
+
+    .cards{
+        position: absolute;
+width: 528px;
+height: 442.84px;
+left: 154px;
+top: 382px;
+ .container-1{
+    position: absolute;
+width: 254.67px;
+height: 211.69px;
+left: 154px;
+top: 382px;
+
+/* Background/White */
+
+background: #FFFFFF;
+border-radius: 8.1106px;
+ }
+
+  .container-2{
+
+position: absolute;
+width: 253.86px;
+height: 211.69px;
+left: 428.14px;
+top: 382px;
+
+/* Background/White */
+
+background: #FFFFFF;
+border-radius: 8.1106px;
+ }
+
+  .container-3{
+position: absolute;
+width: 254.67px;
+height: 211.69px;
+left: 154px;
+top: 613.15px;
+
+/* Background/White */
+
+background: #FFFFFF;
+border-radius: 8.1106px;
+ }
+
+  .container-4{
+position: absolute;
+width: 253.86px;
+height: 211.69px;
+left: 428.14px;
+top: 613.15px;
+
+/* Background/White */
+
+background: #FFFFFF;
+border-radius: 8.1106px;
+ }
+    }
+}
+p.title{
+position: absolute;
+width: 66px;
+height: 28px;
+left: 174.34px;
+top: 699.61px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+/* identical to box height, or 137% */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #3F4481;
+}
+p.content-body{
+
+position: absolute;
+width: 192px;
+height: 51px;
+left: 174.34px;
+top: 740.3px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 11.3548px;
+line-height: 150%;
+/* or 17px */
+
+
+color: #6F73A0;
+}
+
